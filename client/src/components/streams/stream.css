@@ -1,0 +1,157 @@
+h1 {
+    font-size: 60px;
+    font-family: "Roboto Slab";
+    color: #f9f9f9;
+}
+
+h5 {
+    font-size: 20px;
+    font-family: "Roboto Slab";
+    color: #f9f9f9;
+}
+
+.streamInfoArea {
+    margin: 10px;
+    padding: 1rem;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+
+}
+.infoHeader {
+    padding-left: 1%;
+    box-shadow: 0 8px 6px -6px #1affe8;
+}
+
+.infoBody {
+    padding-left: 2%;
+
+}
+
+.videoContainer {
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131313;
+
+}
+
+.streamVideo {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    background-color: #f9f9f9;
+    border-radius: 30px;
+    width: 80%;
+    height: 800px;
+}
+
+.userLogo{
+    background-size: 100px;
+    border-radius: 50%;
+
+}
+
+.infoStreamer{
+    display: flex;
+    align-items: center;
+    border: solid 0.04px #595959;
+    padding: 5px 5px 5px 20px;
+    border-radius: 12px;
+
+
+}
+
+.isLive {
+    width: 10px;
+    height: 10px;
+    border-radius: 90%;
+    border: solid 0.01px #262626;
+    background-color: #fc511d;
+    box-shadow: 0 0px 5px 2px #fc511d;
+
+}
+
+.notLive {
+    width: 10px;
+    height: 10px;
+    border-radius: 90%;
+    border: solid 1px  #282828;
+    background-color: #262626;
+    box-shadow: 0 0px 5px 1px #595959;
+
+
+}
+
+
+.infoElement {
+    margin-right: 30px;
+}
+
+.streamerStatus {
+     /*stuff   */
+
+}
+
+.statusHeader {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+
+
+}
+
+.statusBottom {
+    margin-top: -30px;
+
+ }
+
+p {
+    color: #9c9c9c;
+    font-family: "Roboto Slab";
+}
+
+.liveStats {
+    justify-content: right;
+    display: flex;
+    align-items: stretch;
+}
+
+.topStats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottomStats {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+}
+
+.totalViews {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+
+}
+
+.liveViewers {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+
+}
+
+
+.subscribers {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+}
+
+.followers {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+
+}
