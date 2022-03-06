@@ -1,7 +1,7 @@
 .headerWrapper {
     /*background: #363636 ;*/
     background: #262626;
-    height: 90px;
+    height: 50px;
     padding: 0.7%;
     display: flex;
     justify-content: space-between;
@@ -14,9 +14,9 @@
 
 .headerLogo {
     background-image: url("logo.png");
-    width: 85px;
-    height: 85px;
-    background-size: 85px;
+    width: 45px;
+    height: 45px;
+    background-size: 45px;
     background-repeat: no-repeat;
     border-radius: 60%;
     border: solid 0.5px black;
@@ -55,7 +55,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
+    width: 120px;
     transition: all .2s ease-in;
 
 }
@@ -94,7 +94,7 @@ a:hover {
 }
 
 .userLogo{
-    height: 80px !important;
+    height: 45px !important;
     size: auto;
     object-fit: contain;
     background-size: 80px;

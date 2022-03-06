@@ -4,6 +4,7 @@ import { fetchStream } from '../../actions';
 import flv from 'flv.js';
 import './stream.css';
 import userPic from "../user_pic.jpg";
+import {ReactFlvPlayer} from 'react-flv-player';
 
 
 class StreamShow extends Component {
@@ -48,9 +49,24 @@ class StreamShow extends Component {
 
     return (
       <div>
-        <div className="videoContainer">
-        {/*<video ref={this.videoRef} style={{ width: '100%' }} controls={true} />*/}
-          <div className="streamVideo"></div>
+        <div className="streamContainer">
+          <div className="videoContainer">
+          {/*<video ref={this.videoRef} style={{ width:'1100px' }} controls={true} />*/}
+          <ReactFlvPlayer
+            url = "http://localhost:8000/live/1.flv"
+            heigh = "900px"
+            width = "1100px"
+            isMuted={true}
+          />
+          {/*  <div className="streamVideo"></div>*/}
+          </div>
+          <div className="streamChat">
+            <div className="chatHeader">
+              <div className="chatToggle"> ᐸ </div>
+              <div className="chatTitle">Chat</div>
+            </div>
+            <div className="chatContent"></div>
+          </div>
         </div>
         <div className="streamInfoArea">
           <div className="infoStreamer">
@@ -67,23 +83,24 @@ class StreamShow extends Component {
             <div className="liveStats">
               <div className="topStats">
                 <div className="liveViewers">
-                  <p>Live Viewers: </p>
-                  <p>890</p>
+                  <p className="attr" >Live Viewers </p>
+                  <p>1.256</p>
                 </div>
-                <div className="totalViews">
-                  <p>Total Views: </p>
+                <div className="subscribers">
+                  <p className="attr" >Subs </p>
                   <p>890</p>
                 </div>
               </div>
               <div className="bottomStats">
+                <div className="totalViews">
+                  <p className="attr" >Total Views </p>
+                  <p>3.452</p>
+                </div>
                 <div className="followers">
-                  <p>Followers: </p>
-                  <p>890</p>
+                  <p className="attr" >Followers </p>
+                  <p>1.056</p>
                 </div>
-                <div className="subscribers">
-                  <p>Subs: </p>
-                  <p>890</p>
-                </div>
+
               </div>
 
             </div>
